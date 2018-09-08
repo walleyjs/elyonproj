@@ -67,6 +67,7 @@ font-size: 21px;
 }
 .back_cont4{
     padding-top: 15px;
+    /* background-color: white; */
 }
 .back_cont5 button{
     margin-top: 50px;
@@ -95,6 +96,7 @@ font-size: 21px;
 .fsecont2{
     text-align: center;
     font-size: 20px;
+    width: 65%;
 }
 #ssecont{
     display:flex;
@@ -155,7 +157,7 @@ font-size: 21px;
     text-align: center;
     padding: 20px 30px 50px 30px; 
     border-radius: 10px;
-    transition: box-shadow 1s;
+    transition: box-shadow 0.5s;
 }
 .thirdsubcontent:hover{
     box-shadow: 7px 7px 10px 10px rgb(37, 30, 30);
@@ -182,4 +184,35 @@ font-size: 21px;
     padding: 50px 0px 0px 0px;
     text-align: center;
     font-size: 20px;
+    width: 65%;
+}
+#lastback_img{
+    min-height: 500px;
+    background-image:url("imgs/office-1.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#lastcontent{
+     display: flex; 
+    background-color:#362c2999;
+    flex-direction: column;
+    width: 100%;
+    height:505px;
+    color: white;
+    align-items: center;
+    padding: 50px 0px 0px 0px;
+     /* z-index:2;   */
+}
+#lastcont{
+    display: flex;
+    flex-direction: column;
+     width: 50%;
+     align-items: center;
+     text-align: center;
+     font-size: 30px;
+}
+.lastcont1{
+
 }
