@@ -199,7 +199,7 @@ font-size: 21px;
     background-color:#362c2999;
     flex-direction: column;
     width: 100%;
-    height:400px;
+    height:300px;
     color: white;
     align-items: center;
     padding: 50px 0px 0px 0px;
@@ -228,4 +228,30 @@ padding: 7px 0px 0px 0px;
     color: white;
     border-radius: 7px;
      background-color: #e76969;
+}
+#footers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:black;
+}
+#footer{
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    /* align-items: flex-start; */
+    flex-basis: 1;
+    margin:50px 0px 20px 100px;
+    padding: 0px 10px 0px 0px; 
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
 }
