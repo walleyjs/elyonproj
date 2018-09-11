@@ -6,6 +6,7 @@ body{
     height: 100%;
     display: flex;
     flex-direction: column;
+    
 }
 #bac_img{
     background-image:url("imgs/header-1.jpeg");
@@ -92,19 +93,25 @@ font-size: 21px;
 .fsecont1{
     border-bottom: solid #e7696999 3px;
     padding-bottom: 15px;
+    color:#000000b3;
+    font-size: 15px;
 }
 .fsecont2{
     text-align: center;
     font-size: 20px;
     width: 65%;
+    color:#000000b3;
+    padding: 20px 0px 0px 0px;
+
 }
 #ssecont{
     display:flex;
     flex-direction: row;
     justify-content: center;
     /* justify-content: space-around; */
-    padding: 60px 10px 150px 0px;
+    padding: 50px 10px 120px 0px;
     background-color: white;
+    color:#000000b3;
 }
 #secontainer{
     display: flex;
@@ -113,14 +120,19 @@ font-size: 21px;
     text-align: center;
     font-size: 20px;
     width: 25%;
+    
+}
+#secontainer li{
+    padding: 13px 0px 0px 0px;
 }
 #thirdcont{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #58595c;
+    background-color:#58595cb3;
     color: white;
-    padding: 100px 0px 0px 0px;;
+    padding: 100px 0px 0px 0px;
+    
 }
 #thirdsubcont{
     display: flex;
@@ -128,6 +140,8 @@ font-size: 21px;
     align-items: center;
     text-align: center;
     padding: 0px 0px 100px 0px;
+    
+   
 }
 .thirdsubcon1{
     border-bottom: solid white 3px;
@@ -135,7 +149,8 @@ font-size: 21px;
 }
 .thirdsubcon2{
     padding-top: 30px;
-    font-size: 25px;
+    font-size: 17px;
+    width: 70%;
 }
 #thirdsubcontent{
     display: flex;
@@ -148,19 +163,22 @@ font-size: 21px;
     flex-direction: column;
     margin-left: 40px;
     text-align: center;
-    font-size: 20px;
-    width: 20%;
+    /* font-size: 20px; */
+    width: 17%;
     border: solid white 3px;
     background-color: white;
-    color: black;
-    font-size: 20px;
+    color: #000000b3;
+    font-size: 17px;
     text-align: center;
-    padding: 20px 30px 50px 30px; 
+    padding: 17px 30px 45px 30px; 
     border-radius: 10px;
-    transition: box-shadow 0.5s;
+    transition: box-shadow 0.2s;
+}
+.thirdsubcontent li{
+    padding: 7px 0px 7px 0px;
 }
 .thirdsubcontent:hover{
-    box-shadow: 7px 7px 10px 10px rgb(37, 30, 30);
+    box-shadow: 7px 7px 10px 10px #58595cb3;
     z-index: 2;
 }
 #face{
@@ -170,7 +188,17 @@ font-size: 21px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px 0px 100px 0px;
+    padding: 40px 0px 50px 0px;
+    font-size: 20px;
+    color: #000000b3;
+}
+#fourthcont li{
+    padding: 0px 0px 10px 0px;
+}
+.fourthcont2{
+    border-bottom: solid #e7696999 3px;
+    margin-bottom: 70px;
+
 }
 .fourthcont3{
     display: flex;
@@ -181,13 +209,13 @@ font-size: 21px;
     margin:0px 40px 0px 40px;
 }
 .fourthcont4{
-    padding: 50px 0px 0px 0px;
+    /* padding: 100px 0px 0px 0px; */
     text-align: center;
-    font-size: 20px;
+    
     width: 65%;
 }
 #lastback_img{
-    min-height: 300px;
+    min-height: 420px;
     background-image:url("imgs/office-1.jpeg");
     background-attachment: fixed;
     background-position: center;
@@ -199,11 +227,17 @@ font-size: 21px;
     background-color:#362c2999;
     flex-direction: column;
     width: 100%;
-    height:300px;
+    height:420px;
     color: white;
     align-items: center;
-    padding: 50px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
+    /* padding: 0px 0px 0px 0px; */
      /* z-index:2;   */
+}
+#border1 {
+    padding: 0px 0px 29px 0px;
+    border-bottom: solid white 2px;
+    /* border-radius: 5px; */
 }
 #lastcont{
     display: flex;
@@ -211,19 +245,21 @@ font-size: 21px;
      /* width: 50%; */
      align-items: center;
      text-align: center;
-     font-size: 30px;
+     font-size: 20px;
 }
 .lastcont1{
-padding: 7px 0px 0px 0px;
+padding: 0px 0px 15px 0px;
 }
 .lastcont3{
+    padding: 40px 0px 0px 0px;
     width: 70%;
+    color:#ffffffe6;
 }
 #lastbtn button{
-    margin-top: 50px;
-    padding:15px 15px 15px 15px;
+    margin-top: 80px;
+    padding:15px 20px 18px 20px;
     font-size: 13px;
-    border: solid #e7696999 0px;
+    border:solid #e7696999 0px;
     cursor: pointer;
     color: white;
     border-radius: 7px;
@@ -233,17 +269,20 @@ padding: 7px 0px 0px 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color:black;
+    background-color:#000000e6;
 }
 #footer{
     display: flex;
     flex-direction: column;
-    width: 28%;
+    width: 30%;
     /* align-items: flex-start; */
     flex-basis: 1;
     margin:50px 0px 20px 100px;
     padding: 0px 10px 0px 0px; 
 
+}
+#footer h3{
+    color: white;
 }
 a{
     text-decoration: none;
