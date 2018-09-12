@@ -270,6 +270,8 @@ padding: 0px 0px 15px 0px;
     flex-direction: row;
     justify-content: center;
     background-color:#000000e6;
+    
+    
 }
 #footer{
     display: flex;
@@ -277,12 +279,16 @@ padding: 0px 0px 15px 0px;
     width: 30%;
     /* align-items: flex-start; */
     flex-basis: 1;
-    margin:50px 0px 20px 100px;
-    padding: 0px 10px 0px 0px; 
-
+    /* margin:50px 0px 0px 100px; */
+    padding: 50px 10px 50px 100px;
+    
+}
+#footer li a{
+    color: #5d5a5a;
 }
 #footer h3{
     color: white;
+    padding: 0px 0px 10px 0px;
 }
 a{
     text-decoration: none;
@@ -293,4 +299,13 @@ footer{
     text-align: center;
     color: white;
     background-color:#000000e6;
+    display: flex;
+    justify-content: center;
+    
+}
+footer div{
+    width: 80%;
+    padding: 20px 0px 20px 0px;
+    border-top:solid #5d5a5a 1px;
+    color: #5d5a5a;
 }
